@@ -5,8 +5,8 @@
 		<div class="card">
 			<div class="card-header">
 				<large class="card-title">
-					<b>Payment List</b>
-					<button class="btn btn-primary btn-sm btn-block col-md-2 float-right" type="button" id="new_payments"><i class="fa fa-plus"></i> New Payment</button>
+					<b>Contribution List</b>
+					<button class="btn btn-primary btn-sm btn-block col-md-2 float-right" type="button" id="new_payments"><i class="fa fa-plus"></i> New Contributions</button>
 				</large>
 				
 			</div>
@@ -23,10 +23,10 @@
 					<thead>
 						<tr>
 							<th class="text-center">#</th>
-							<th class="text-center">Loan Reference No</th>
-							<th class="text-center">Payee</th>
+							<th class="text-center">Contribution No</th>
+							<th class="text-center">Group</th>
 							<th class="text-center">Amount</th>
-							<th class="text-center">Penalty</th>
+							<th class="text-center">Shares</th>
 							<th class="text-center">Action</th>
 						</tr>
 					</thead>

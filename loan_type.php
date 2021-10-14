@@ -9,12 +9,12 @@
 			<form action="" id="manage-loan-type">
 				<div class="card">
 					<div class="card-header">
-						   Loan Type Form
+						   Dividents  Form
 				  	</div>
 					<div class="card-body">
 							<input type="hidden" name="id">
 							<div class="form-group">
-								<label class="control-label">Type</label>
+								<label class="control-label">Type|Share</label>
 								<textarea name="type_name" id="" cols="30" rows="2" class="form-control"></textarea>
 							</div>
 							<div class="form-group">

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Admin | Loan Management System</title>
+  <title>Head | SACCO Management System</title>
  	
 
 <?php
@@ -19,7 +19,7 @@
 </head>
 <style>
 	body{
-        background: #80808045;
+        background: #ffffff;
   }
   .modal-dialog.large {
     width: 80% !important;

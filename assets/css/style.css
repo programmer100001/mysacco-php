@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #ffffff;
   width: 100%;
   height: calc(100%);
 }
@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #2c4964;
+  color: #ffffff;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;

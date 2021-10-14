@@ -44,7 +44,7 @@ CREATE TABLE `borrowers` (
 --
 
 INSERT INTO `borrowers` (`id`, `firstname`, `middlename`, `lastname`, `contact_no`, `address`, `email`, `tax_id`, `date_created`) VALUES
-(1, 'Ben', 'C', 'Muga', '+254 7554 454654', 'Sample address', 'ben@sample.com', '789845-23', 0);
+(1, 'Ben', 'C', 'muga', '+254 7 554 454654', 'Sample address', 'muga@sample.com', '789845-23', 0);
 
 -- --------------------------------------------------------
 
@@ -70,7 +70,7 @@ CREATE TABLE `loan_list` (
 --
 
 INSERT INTO `loan_list` (`id`, `ref_no`, `loan_type_id`, `borrower_id`, `purpose`, `amount`, `plan_id`, `status`, `date_released`, `date_created`) VALUES
-(3, '0781409630', 1, 1, 'Sample Only', 100000, 1, 2, '2021-09-26 09:06:00', '2021-09-26 15:06:29');
+(3, '81409630', 1, 1, 'Sample Only', 100000, 1, 2, '2020-09-26 09:06:00', '2020-09-26 15:06:29');
 
 -- --------------------------------------------------------
 
@@ -214,7 +214,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `doctor_id`, `name`, `address`, `contact`, `username`, `password`, `type`) VALUES
-(1, 0, 'Head', '', '', 'Nicholas', 'Nicholas123', 1);
+(1, 0, 'Administrator', '', '', 'mwenda', 'mwenda123', 1);
 
 --
 -- Indexes for dumped tables

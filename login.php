@@ -5,8 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-
-  
+  <title>Login | Sacco Management System</title>
  	
 
 <?php include('./header.php'); ?>
@@ -23,9 +22,8 @@ header("location:index.php?page=home");
 	body{
 		width: 100%;
 	    height: calc(100%);
-	    background: #007bff;
+	    background: white;
 	}
-
 	main#main{
 		width:100%;
 		height: calc(100%);
@@ -45,10 +43,10 @@ header("location:index.php?page=home");
 		left:0;
 		width:60%;
 		height: calc(100%);
-		background:#59b6ec61;
+		/*background:white;*/
 		display: flex;
 		align-items: center;
-		/*background: url(assets/img/loan.png);*/
+		background: url(assets/img/loan.png);
 	    background-repeat: no-repeat;
 	    background-size: cover;
 	}
@@ -82,9 +80,6 @@ div#login-right::before {
 
   <main id="main" class=" bg-info">
   	<h1>Sacco Management System</h1>
-
-  	<h2 accesskey="disabled" >Invest Your future</h2>
-
   		<div id="login-left">
   		</div>
 
@@ -114,10 +109,6 @@ div#login-right::before {
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-  
-
- <button  class="btn-sm btn-block btn-wave col-md-4 btn-primary">My future</button>
-  <button class="btn-sm btn-block btn-wave col-md-4 btn-primary">My Dream</button>
 
 </body>
 <script>

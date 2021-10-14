@@ -15,7 +15,7 @@
 			<div class="col-lg-12">
 			<div class="card" style="background-color: gray">
 				<div class="card-body">
-						<h1>Admin Dashboard</h1>			
+						<h1>Head Dashboard</h1>			
 				</div>
 				<hr>
 				<div class="row ml-2 mr-2">

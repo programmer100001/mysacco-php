@@ -6,7 +6,7 @@
 	
 	<div class="row">
 	<div class="col-lg-12">
-			<button class="btn btn-primary float-right btn-sm" id="new_user"><i class="fa fa-plus"></i> New user</button>
+			<button class="btn btn-primary float-right btn-sm" id="new_user"><i class="fa fa-plus"></i> New Member</button>
 	</div>
 	</div>
 	<br>
@@ -17,7 +17,7 @@
 			<thead>
 				<tr>
 					<th class="text-center">#</th>
-					<th class="text-center">Name</th>
+					<th class="text-center">Group</th>
 					<th class="text-center">Username</th>
 					<th class="text-center">Action</th>
 				</tr>
